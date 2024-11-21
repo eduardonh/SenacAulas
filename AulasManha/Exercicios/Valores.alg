@@ -1,25 +1,25 @@
 algoritmo "Valores"
-// Função :
+// Funï¿½ï¿½o :
 // Autor :
 // Data : 25/07/2017
-// Seção de Declarações 
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es 
 var
    N1, N2, S: Inteiro
 
 inicio
       Escreval
       Escreval
-      Escreva("Digite um Número: ")
+      Escreva("Digite um Nï¿½mero: ")
       Leia (N1)
       Escreval
       Escreval
-      Escreva ("Digite um Segundo Número: ")
+      Escreva ("Digite um Segundo Nï¿½mero: ")
       Leia (N2)
       S <- N1 + N2
       Escreval
       Escreval
-      Escreva ("O resultado da soma entre ",N1," e ",N2," é ",S)
+      Escreva ("O resultado da soma entre ",N1," e ",N2," ï¿½ ",S)
       Escreval
       Escreval
-// Seção de Comandos 
+// Seï¿½ï¿½o de Comandos 
 fimalgoritmo
