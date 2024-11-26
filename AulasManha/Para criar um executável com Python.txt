@@ -1,0 +1,12 @@
+Para criar um executável de um algoritmo em Python:
+
+instalar a biblioteca pyinstaller
+pip install pyinstaller
+
+pyinstaller --onefile -w Gabarito.py
+
+// O -w só sera necessário se o meu programa vai trabalhar com 
+// ambiente gráfico (janelas e botões), caso não, não preciso digi-
+// ta-lo.
+
+pyinstaller --onefile Gabarito.py
