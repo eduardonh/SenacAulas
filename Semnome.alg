@@ -1,25 +1,21 @@
 algoritmo "Valores"
-// Função :
+// Funï¿½ï¿½o :
 // Autor :
 // Data : 25/07/2017
-// Seção de Declarações
+// Seï¿½ï¿½o de Declaraï¿½ï¿½es
 var
    N1, N2, M: Real
-
 inicio
       Escreval
-      Escreval
-      Escreva("Digite um Número: ")
+      Escreva("Digite um Nï¿½mero: ")
       Leia (N1)
       Escreval
-      Escreval
-      Escreva ("Digite um Segundo Número: ")
+      Escreva ("Digite um Segundo Nï¿½mero: ")
       Leia (N2)
       M <- (N1 + N2)/2
       Escreval
       Escreval
-      Escreva ("A Média entre ",N1," e ",N2," é ",M)
+      Escreva ("A Mï¿½dia entre ",N1," e ",N2," ï¿½ ",M)
       Escreval
-      Escreval
-// Seção de Comandos
+// Seï¿½ï¿½o de Comandos
 fimalgoritmo
