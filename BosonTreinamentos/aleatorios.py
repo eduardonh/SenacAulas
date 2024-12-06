@@ -1,4 +1,5 @@
 import random
+from random import shuffle
 
 # valor = random.randint(1,20)
 # print(valor)
@@ -48,5 +49,18 @@ L = [2,4,6,9,10,13,14,16,18,20,21,27,33]
 # Embaralhar valores da lista
 print(f"Exibir a lista original: {L}")
 print(f"Embaralhar a lista e exibi-la:")
-lista_nova = random.shuffle(L)
+# lista_nova = shuffle(L)
+# print(lista_nova)   -- não vai funcionar, retorna None
+lista_nova = L
+shuffle(lista_nova)
 print(lista_nova)
+'''
+    Quando for utilizar o comando shuffle devo utiliza-lo
+    diretamente sobre a variável que pretendo embaralhar, 
+    pois se tentar guardar o resultado do embaralhamento em 
+    uma variável e tentar exibi-lá retornara None.
+    Além de fazer as importações:
+    import random
+    from random import shuffle
+
+'''
