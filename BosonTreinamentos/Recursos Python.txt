@@ -1,0 +1,17 @@
+www.pypi.org # Site para ver os pacotes disponíveis para o Python
+
+py --version # Ver qual versão do Python estou rodando no meu dispositivo.
+
+Obs.: py é python.exe
+
+py -m pip list # Para ver quais pacotes tenho instalado no meu Python
+
+py -m pip show matplotlib # py -m pip show nomeDoPacote - para ver informações sobre o pacote
+
+
+Obs.: para instalar pacotes no senac colocar no final do comando --user
+
+
+Para desinstalar um pacote
+
+py -m pip unisntall nomeDoPacote
