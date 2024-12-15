@@ -29,3 +29,5 @@ arroba = email.find("@")
 print(arroba)
 usuario = email[0:arroba]
 dominio = email[arroba+1:]
+print(usuario)
+print(dominio)
